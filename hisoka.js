@@ -1,4 +1,4 @@
-/**
+﻿/**
    * Create By Dika Ardnt.
    * Contact Me on wa.me/6288292024190
    * Follow https://github.com/DikaArdnt
@@ -85,7 +85,7 @@ const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')
 
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
-const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`, orderTitle: 'Please Subscribe Youtube Sanzy YT', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`, orderTitle: 'Please Subscribe Youtube DhaniF YT', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 
 //END
 	try {
@@ -570,12 +570,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 case 'tqtt': case 'tqto': case 'thanksto': {
                 anu = `
 ⭔ Ortu Saya.
-⭔ DikaArdnt (Author).
-⭔ Sanzy YT.
-⭔ Fatih A.
-⭔ Nurutomo.
-⭔ Mhankbarbar.
-⭔ ZeeoneOfc.
+⭔ DhaniF (Author) (Owner).
 ⭔ Penyedia Module.
 ⭔ Penyedia Res Api's.
 ⭔ All My Friends.
@@ -802,25 +797,28 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                anu = `
-                *Info Script*     
-
-📚 *Base : Dika Ardnt* 
-
-https://github.com/DikaArdnt/Hisoka-Morou
-
-
-🌱 Recode By : Sanzy YT
-
-https://youtube.com/c/SanzyYT`
-                let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: 'https://youtube.com/c/SanzyYT'
-                                }
-                            }]
-                hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, button)
+                m.reply('ga ada')
             }
+            break
+	    case 'gelud': case 'gelud?': {
+            m.reply('AYOK?')
+            }
+            break
+	    case 'hi': case 'halo': {
+            m.reply('halo kak, semoga harimu suram :)')
+            }
+            break
+	    case 'y': case 'Y': {
+	    m.reply('ngambek?, nih ada balon🎈')
+	    }
+	    break
+	    case 'DhaBot': case 'dhabot': case 'dha': case 'bot': {
+                m.reply('ya?, mau apa panggil saya?')
+            }
+	    break
+	    case 'p': case 'P': {
+                m.reply('Pa pe pa pe, salam gblk')
+	    }
             break
              case 'tes': {
                 m.reply('On Kak')
@@ -871,17 +869,17 @@ var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.j
                         "productImage": messa.imageMessage,
                         "productId": "7091718154232528",
                         "title": `_*MENU *_`,
-                        "description": '┏━━━━━━━━━━━━━━⬣\n┃        〔 SEWA BOT  〕\n┃ \n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃   ⬣ SEWA + PREM ⬣\n┃⬡ 1 MINGGU : 8K\n┃⬡ 1 BULAN : 18K\n┃⬡ PERMANEN : 25K\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃       〔 KELEBIHAN BOT 〕\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃⬡ ON 24 JAM\n┃⬡ RUN DI RDP\n┃⬡ ANTI DELAY \n┃⬡ ANTILINK\n┃⬡ WELCOME IMAGE\n┃⬡ LEFT\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃           ⬣〔  SISTEM 〕⬣\n┃⬡ TF - SEND BUKTI - BOT JOIN\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃    *PAYMENT* :\n┃ GOPAY\n┃ DANA\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n_Bukan Bot_ *_Wibusoft_*👍🏻',
-                        "footerText": `© Sazy YT`,
+                        "description": '┏━━━━━━━━━━━━━━⬣\n┃        〔 SEWA BOT  〕\n┃ \n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃   ⬣ SEWA + PREM ⬣\n┃⬡ 1 MINGGU : 25WL\n┃⬡ 2 MINGGU : 50WL\n┃⬡ PERMANEN : 1DL\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃       〔 KELEBIHAN BOT 〕\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃⬡ ON 24 JAM\n┃⬡ RUN DI RDP\n┃⬡ ANTI DELAY \n┃⬡ ANTILINK\n┃⬡ WELCOME IMAGE\n┃⬡ LEFT\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃           ⬣〔  SISTEM 〕⬣\n┃⬡ TF - SEND BUKTI - BOT JOIN\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃    *PAYMENT* :\n┃ Growtopia\n┃ Depo DHADEPO\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n_Bukan Bot_ *_Wibusoft_*👍🏻',
+                        "footerText": `© DhaniF`,
                         "currencyCode": "IDR",
                         "priceAmount1000": "100000000000000000",
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "1000",
-                        "retailerId": `Sanzy`,
-                        "url": "wa.me/6281276698054"
+                        "retailerId": `DhaniF`,
+                        "url": "wa.me/6282233249523"
                     },
-                    "businessOwnerJid": "6281276698054@s.whatsapp.net",
+                    "businessOwnerJid": "6282233249523@s.whatsapp.net",
                 }
                 }), { userJid: m.chat, quoted: m })
                 hisoka.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -1648,7 +1646,7 @@ break
 	    }
 	    break
 	    case 'gitstalk': case 'ghstalk': case 'githubstalk': {
-                if (!text) throw `Kirim perintah ${prefix + command} *username*\n\nExample : ${prefix + command} sanzykawaiiii`
+                if (!text) throw `Kirim perintah ${prefix + command} *username*\n\nExample : ${prefix + command} dhanikawaiiii`
                 y = await fetchJson(`https://api.github.com/users/${text}`)
                 let teks = `*Stalk Github*\n\n• Username : ${y.login}\n• Id : ${y.id}\n• Node Id : ${y.node_id}\n• Type : ${y.type}\n• Name : ${y.name}\n• Company : ${y.company}\n• Blog : ${y.blog}\n• Location : ${y.location}\n• Email : ${y.email}\n• Bio : ${y.bio}\n• Public Repo(s) : ${y.public_repos}\n• Public Gist(s) : ${y.public_gists}\n• Followers : ${y.followers}\n• Following : ${y.following}\n• Created At : ${moment(y.created_at).tz('Asia/Jakarta').format('HH:mm:ss DD/MM/YYYY')}\n• Updated At : ${moment(y.updated_at).tz('Asia/Jakarta').format('HH:mm:ss DD/MM/YYYY')}`
                 let ghs = [
@@ -2166,7 +2164,7 @@ let anu = await fetchJson(`https://api-daniganz.herokuapp.com/api/random/${comma
 	    }
             break
 case '3d-effect': case '3d-rubystone': case '3d-text-sub-zombie': case '3dengraved': case '3dgold': case '3dgolden': case '3dgradient': case '3dgradient': case '3dlove': case '3dluxury': case '3dneonlight': case '3dpapercut': case '3drainbow': case '3drealistic': case '3drosegold': case '3dscifi': case '3dsilver': case '3dspace': case '3dstone': case '3dtext-effect': case '3dunderwater': case '3dvintage': case '3dwaterpipe': case 'alice-league-of-kings': case 'angel-wing-galaxy': case 'anubis': case 'arch-crossfire': case 'art-shader': case 'assassins-creed': case 'avengers': case 'azzenka-league-of-kings': case 'balloons-cards': case 'balloons-love': case 'bearlogo': case 'bg-crossfire': case 'birthday-cake': case 'birthday-cards': case 'birthday-greeting': case 'birthday-roses': case 'black-metal': case 'blood-frosted': case 'blood-text': case 'blue-effect': case 'blue-glitter': case 'brickwall': case 'brokentext': case 'bulb-effect': case 'bubble-effect': {
-if (!text) throw `Example : ${prefix + command} SanzyYT`
+if (!text) throw `Example : ${prefix + command} DhaniF`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.violetics.pw/api/textpro/${command}?apikey=zyykey&text=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
@@ -2179,7 +2177,7 @@ break
             }
             break
 case 'shadow': case 'cup': case 'cup1': case 'burnpaper': case 'lovemessage': case 'undergrass': case 'woodheart': case 'woodenboard': case 'wolfmetal': case 'nature3d': case 'underwater': case 'golderrose': case 'fallleaves': case 'flamming': case 'harrypotter': {
-if (!text) throw `Example : ${prefix + command} SanzyYT`
+if (!text) throw `Example : ${prefix + command} DhaniF`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=sanzychan01&text=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
@@ -2234,7 +2232,7 @@ case 'balloon-text':
 case 'balloons-cards':
 case 'balloons-love':
 case 'bats-halloween': {
-if (!text) throw `Example : ${prefix + command} SanzyYT`
+if (!text) throw `Example : ${prefix + command} DhaniF`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.violetics.pw/api/ephoto360/${command}?apikey=zyykey&text=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
@@ -2247,14 +2245,14 @@ break
             }
             break
 case 'wetglass': case 'multicolor3d': case 'watercolor': case 'luxurygold': case 'galaxywallpaper': case 'lighttext': case 'beautifulflower': case 'royaltext': case 'heartshaped': case 'birdhdaycake': case 'galaxystyle': case 'hologram3d': case 'greenneon': case 'glossychrome': case 'greenbush': case 'metallogo': case 'neoltext': case 'glittergold': case 'textcake': case 'startsnight': case 'wooden3d': case 'textbyname': case 'writegalacy': case 'galaxybat': case 'snow3d': case 'birthdayday': case 'silverplaybutton': case 'cartoongravity': case 'anonymhacker': case 'mlwall': case 'pubgmaskot': case 'aovwall': case 'logogaming': case 'fpslogo': case 'avatarlolnew': case 'lolbanner': case 'avatardota': {
-if (!text) throw `Example : ${prefix + command} SanzyYT`
+if (!text) throw `Example : ${prefix + command} DhaniF`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=sanzychan01&text=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
 }
 break
 case 'juventusshirt': case 'cutegravity': case 'realvintage': case 'codwarzone': {
-if (!text) throw `Example : ${prefix + command} SanzyYT`
+if (!text) throw `Example : ${prefix + command} DhaniF`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.lolhuman.xyz/api/ephoto2/codwarzone?apikey=sanzychan01&text1=${text}&text2=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
@@ -3014,7 +3012,7 @@ hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: m})
 }
 break
 case 'kannagen': {
-if (!text) throw `Exampel : ${prefix + command} SanzyYT`
+if (!text) throw `Exampel : ${prefix + command} DhaniF`
 let anu = await getBuffer (`https://zenzapi.xyz/api/image/kannagen?text=${text}&apikey=sanzychan01`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: m})
 }
@@ -3313,7 +3311,15 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'owner': case 'creator': {
-                hisoka.sendContact(m.chat, global.owner, m)
+                	anu = `*Owner : DhaniF*
+*Nomor : wa.me/6282233249523*`
+	    let button = [{
+                                quickReplyButton: {
+                                    displayText: 'Sewabot',
+                                    id: 'sewabot'
+                                }
+                            }]
+	    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, button)
             }
             break
 case 'rules': {
@@ -3346,15 +3352,62 @@ Sanksi: *PERMANENT BLOCK*`
                 hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, button)
             }
             break
+case 'jasa': case 'sewajasa': {
+                anu = `--SETUP BOT WA--
+_•SYARAT•_
+-vps dari lu
+-sc dari lu
+-nomor dari lu
+-jangan tabrak saat proses
+_•PRICE•_
+*Growtopia*: 25 WL
+
+--MURID--
+_•SYARAT•_
+-punya semua bahan
+_•PRICE•_
+1 Minggu
+*Growtopia*: 75 WL
+*Vpul*: 7.500 Rp
+
+--HOSTING BOT--
+_•SYARAT•_
+-nomor dari lu
+_•PRICE•_
+1 Minggu
+*Growtopia*: 50 WL
+*Vpul*: 5.000 Rp
+2 Minggu
+*Growtopia*: 1 DL
+*Vpul*: 10.000 Rp
+
+--PAYMENT--
+-Vpul *(Telkom)*
+-Growtopia *(Depo DHADEPO)*
+
+--SYSTEM--
+*PAY/DEPO - SEND DATA - PROSES - DONE*
+
+MINAT? CHAT OWNER
+Oke`
+                let button = [{
+                                quickReplyButton: {
+                                    displayText: 'Chat Owner Disini',
+                                    id: 'owner'
+                                }
+                            }]
+                hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, button)
+            }
+            break
 case 'sewa': case 'sewabot': {
                 anu = `┏━━━━━━━━━━━━━━⬣
 ┃        〔 SEWA BOT  〕
 ┃ 
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃   ⬣ SEWA + PREM ⬣
-┃⬡ 1 MINGGU : 8K
-┃⬡ 1 BULAN : 18K
-┃⬡ PERMANEN : 25K
+┃⬡ 1 MINGGU : 25WL
+┃⬡ 2 MINGGU : 50WL
+┃⬡ PERMANEN : 1DL
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃       〔 KELEBIHAN BOT 〕
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
@@ -3369,8 +3422,8 @@ case 'sewa': case 'sewabot': {
 ┃⬡ TF - SEND BUKTI - BOT JOIN
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃⬣━ *PAYMENT* :
-┃ GOPAY
-┃ DANA
+┃ Growtopia
+┃ Depo DHADEPO
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 _Bukan Bot_ *_Wibusoft_*👍🏻`
@@ -6021,7 +6074,7 @@ break
 		    hisoka.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 		}
         }
-     if (budy.includes('6281276698054')) {  
+     if (budy.includes('622233249523')) {  
 hisoka.sendMessage(m.chat, {text: 'Ada Apa Ya Tags Owner Saya'}, {quoted: ftroli})
 	  }	     
 
